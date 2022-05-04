@@ -1,0 +1,1666 @@
+{
+  "id": "e7eaee00-8d74-4cff-b849-53a210c22d0c",
+  "version": "2.0",
+  "name": "SoftUniWorkshopSeleniumIDE",
+  "url": "https://www.animal.co.uk",
+  "tests": [{
+    "id": "66d0ee66-9fa7-43bf-a1a3-7960433156e5",
+    "name": "VerifyShopWomen'sCollection",
+    "commands": [{
+      "id": "a9364249-3e99-4feb-8c5d-536741674765",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f0309b5-4844-4c97-94a9-e11e4da8e3fd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c71900c-08fb-4444-b3e7-15c6f2878570",
+      "comment": "",
+      "command": "click",
+      "target": "css=.womens > .level0 > span",
+      "targets": [
+        ["css=.womens > .level0 > span", "css:finder"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "848ee7a0-43f5-4ec4-a790-38d57c9cc74c",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Womens Sustainable Clothes & Accessories - Animal",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8d79dfe-2e35-42aa-9e6c-cba7f9c3cfb1",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.h4",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c609bfe-db99-4ec8-bdcb-a13103bd930b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f237f152-a3ef-44c2-a80d-b3507b6f1961",
+    "name": "AccessingSystem",
+    "commands": [{
+      "id": "d76c1ae5-da09-472c-9670-c5164a3841ca",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc5ce9d1-541e-46b9-83cb-ae07c0772f19",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e54fa95c-0c09-44e3-93c1-a9823a1711c4",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Sustainable & Organic Clothing - Animal",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06d14f60-53bf-4997-a262-dd221d5cfb0c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.nav-primary",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38528877-0220-4f02-9897-bd98fefe94d8",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#shopify-section-1635939997120a27c6 .content",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d71830a0-d554-401d-ad26-17057226682d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "63f6b0d2-98bf-41ba-9ff9-a5df68c96f63",
+    "name": "VerifyShopMen'sCollection",
+    "commands": [{
+      "id": "717ec05e-8beb-46d7-9012-7e7864d37d4e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f727031-3ea6-4c4d-a92a-708d4389f940",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8bf33586-385c-4367-988b-7aac790470b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mens > .level0 > span",
+      "targets": [
+        ["css=.mens > .level0 > span", "css:finder"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4dda754-82b9-4b76-b459-4b750c3c1908",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Mens Sustainable Clothing & Accessories - Animal",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc10d8b9-4fbf-4a63-b09e-a6af0d213c93",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.h4",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1837909e-13f4-43ac-b622-1037648967f0",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "dbadaba0-4b84-4169-be51-ad5fbabc0897",
+    "name": "CheckFilterOptionIsDisplayed",
+    "commands": [{
+      "id": "b090494f-090a-44d9-a608-83410f96b38f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3b53be9-b00f-418c-ad52-e5fbc069d15c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc8c10d9-d265-427d-8cf7-3ae40bd536dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.womens > .level0 > span",
+      "targets": [
+        ["css=.womens > .level0 > span", "css:finder"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5048ad76-f43d-4601-8488-bfa9fc06fd7d",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Womens Sustainable Clothes & Accessories - Animal",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3cf67e4a-3b2a-4f43-88b2-95aa8ae2fae7",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=filterToggle",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5656a64e-2513-4eec-ba8d-4af940ca5c65",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "443f1bd5-7c73-487f-a46c-b6f1d9d13f7e",
+    "name": "CheckSortOptionIsDisplayed",
+    "commands": [{
+      "id": "09015eaf-b3a6-47c8-9b89-4dcf85aa6ed6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c8249a9-ef06-4cea-bedc-467ccb226538",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2bdcd945-9763-4a49-a878-0c402c3be1e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.womens > .level0 > span",
+      "targets": [
+        ["css=.womens > .level0 > span", "css:finder"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e58b1717-bae5-49f9-8db3-a07d6bf65ec9",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Womens Sustainable Clothes & Accessories - Animal",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8722709-eb43-4e2a-bd5a-9cad744410b2",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.label",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "173166a1-d920-4991-ab6a-e6067b2c77fe",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1358a76b-6623-4aea-a08a-62a2d0457c40",
+    "name": "VerifyTheFilterWithOneSizes",
+    "commands": [{
+      "id": "ec906d06-52ed-47ec-a415-496796bd5010",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd3acc36-1be8-4103-8363-d81cea1a7fbe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "958e5c96-0c1b-4385-abbd-f23ac560ed9a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.womens > .level0 > span",
+      "targets": [
+        ["css=.womens > .level0 > span", "css:finder"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "222f0d98-4746-478c-865a-59c18b1b6519",
+      "comment": "",
+      "command": "click",
+      "target": "id=filterToggle",
+      "targets": [
+        ["id=filterToggle", "id"],
+        ["css=#filterToggle", "css:finder"],
+        ["xpath=//button[@id='filterToggle']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80a4ffdb-edff-4865-aeb6-fe9144ce81b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.size > .filter-button:nth-child(3)",
+      "targets": [
+        ["css=.size > .filter-button:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='filterContainer']/div/div[2]/ul/li[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/ul/li[3]", "xpath:position"],
+        ["xpath=//li[contains(.,'6')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4e6dbf9-097e-49db-bde1-e798aa52a12f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.closeToggle:nth-child(2) svg",
+      "targets": [
+        ["css=.closeToggle:nth-child(2) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1eef81d-d40d-4aa2-87bb-96e76b7c2cf5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-item:nth-child(1) .second > img",
+      "targets": [
+        ["css=.product-item:nth-child(1) .second > img", "css:finder"],
+        ["xpath=(//img[@alt='Marina Womens Organic T-Shirt - Grey'])[2]", "xpath:img"],
+        ["xpath=//div[@id='product-grid']/div/div/a/picture[2]/img", "xpath:idRelative"],
+        ["xpath=//picture[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ee5fe15-bbf3-426a-a540-75f4d4cc51f9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.select-option li:nth-child(1)",
+      "targets": [
+        ["css=.select-option li:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='product-variants']/div[2]/ul/li", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'6')]", "xpath:innerText"]
+      ],
+      "value": "6"
+    }, {
+      "id": "f7bba149-44d9-42c9-909f-e9158268ffaf",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "77c90fd6-d9f7-4a17-9c75-e0f67ff1bf4c",
+    "name": "OpenSearchSection",
+    "commands": [{
+      "id": "894f1dd2-2f02-4e93-885f-328ee17ef35d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ef1c269-8f2a-4101-937c-a0621332e3e6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b99d459e-1f0d-4372-b625-fc27a8f28e96",
+      "comment": "",
+      "command": "click",
+      "target": "css=#searchToggle svg",
+      "targets": [
+        ["css=#searchToggle svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "608cd6c5-8263-4b7d-b09b-c1339fcf128f",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "id=search-input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d380fbd-da05-4020-8484-487ecb7ebbad",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=search-input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80385bb4-e837-4b29-b62f-9acccc27e8dd",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b3920975-cb0c-41c0-9276-de910d3cdf78",
+    "name": "CheckTheContentOfTheSort",
+    "commands": [{
+      "id": "21e14916-43ba-4f48-8ce6-59034071bcdd",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4be5492e-e0d8-410d-a4ec-348d8a1280d6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9090490-5c57-48fc-b7d5-460df9592ac6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.womens > .level0 > span",
+      "targets": [
+        ["css=.womens > .level0 > span", "css:finder"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2abe7a3f-f992-4131-9d6d-deafba811015",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Womens Sustainable Clothes & Accessories - Animal",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96af40db-578d-4fc6-b3fe-09999f9b593c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.label",
+      "targets": [
+        ["css=.label", "css:finder"],
+        ["xpath=//div[@id='sorter']/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d4f8ffe-277b-4777-bc0e-a96e420f1a02",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.filter-button:nth-child(3) > span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19f3d7d7-c663-4671-804b-fdacc471e6dd",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.filter-button:nth-child(4) > span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39a5b23b-fb07-4a4c-96c0-265bada4cb14",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.filter-button:nth-child(5) > span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e8135abd-3467-40d3-a5e8-943a6db9b5c5",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.filter-button:nth-child(6) > span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a27d7c5-59cb-4e50-9057-49a2911e0780",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.filter-button:nth-child(8) > span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1501bf53-32a4-4f61-89e0-fa50172c682d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "219503d1-b968-4b6a-b076-f2b258128ce0",
+    "name": "LoginWithValidEmailAndPassword",
+    "commands": [{
+      "id": "6df41875-038c-448d-88d7-ae678ec456d6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36f66d5c-a85c-4eaa-8080-8a171ecb8a00",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "610320b5-3d17-4159-89d5-ff042178c17e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#userToggle svg",
+      "targets": [
+        ["css=#userToggle svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7618c12c-21bd-43e5-9ffc-41ccd09a56b7",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "//a[@href='/account/login']",
+      "targets": [],
+      "value": "login"
+    }, {
+      "id": "9c487974-43c5-4c2a-8f4f-ff09ed98019e",
+      "comment": "",
+      "command": "if",
+      "target": "${login}==1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e9f99d7-f1d1-4375-a2ec-b53baf673ab5",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > .button",
+      "targets": [
+        ["css=li:nth-child(1) > .button", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='userContainer']/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/login')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "430acfdb-bfb7-4616-867a-b44afe4a3c42",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "id=CustomerEmail",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9f81e27-d1ef-4dfe-b695-296a33198fb8",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerEmail",
+      "targets": [
+        ["id=CustomerEmail", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#CustomerEmail", "css:finder"],
+        ["xpath=//input[@id='CustomerEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": "xlfjizbwbuqxcroibb@nthrw.com"
+    }, {
+      "id": "e4737b96-c8fa-403a-836f-42fdaed6f5ea",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "id=CustomerPassword",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb1b876f-8dca-4d15-8749-12eba1bb4b98",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerPassword",
+      "targets": [
+        ["id=CustomerPassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CustomerPassword", "css:finder"],
+        ["xpath=//input[@id='CustomerPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": "11111"
+    }, {
+      "id": "7259569b-5d18-45d3-b2d4-4a3bb77ff1f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-list:nth-child(1) .button",
+      "targets": [
+        ["css=.form-list:nth-child(1) .button", "css:finder"],
+        ["xpath=//input[@value='Sign In']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15f52ad3-a78f-422a-af2f-63ca1ad90263",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c187ed44-e2a2-47ae-82ef-a9dc070259e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=circle:nth-child(2)",
+      "targets": [
+        ["css=circle:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ef339f8-efa0-4926-8db0-69b88011fac5",
+      "comment": "",
+      "command": "click",
+      "target": "id=customer_logout_link",
+      "targets": [
+        ["id=customer_logout_link", "id"],
+        ["linkText=Log Out", "linkText"],
+        ["css=ul:nth-child(1) #customer_logout_link", "css:finder"],
+        ["xpath=//a[contains(text(),'Log Out')]", "xpath:link"],
+        ["xpath=//a[@id='customer_logout_link']", "xpath:attributes"],
+        ["xpath=//div[@id='userContainer']/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/logout')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log Out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa92b1f5-0ed8-45b5-8e84-3897c0016eb8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "372cc381-a0e2-4f88-82f4-c61d92acfbf6",
+    "name": "CheckTheContentOfTheProductPage",
+    "commands": [{
+      "id": "b8efe423-8384-440d-a60a-ae4a0f5b027b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57eec83f-58f3-4175-879e-effacfbd3557",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae81f8cf-5568-476c-8bdc-cd51537d9a0f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.womens > .level0 > span",
+      "targets": [
+        ["css=.womens > .level0 > span", "css:finder"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7952e924-94ca-4490-86d5-aba13a06f199",
+      "comment": "",
+      "command": "click",
+      "target": "//a[contains(.,'maya womens organic hoodie - grey')]",
+      "targets": [
+        ["css=.product-item:nth-child(1) .second > img", "css:finder"],
+        ["xpath=(//img[@alt='Marina Womens Organic T-Shirt - Grey'])[2]", "xpath:img"],
+        ["xpath=//div[@id='product-grid']/div/div/a/picture[2]/img", "xpath:idRelative"],
+        ["xpath=//picture[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf6b1b35-4de4-47dc-a363-ac22b5f00e2b",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Maya Womens Organic Hoodie - Grey – Animal",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48945e87-5671-4b84-b67d-cbb57d3f4987",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.active:nth-child(3) img",
+      "targets": [
+        ["css=.active:nth-child(3) img", "css:finder"],
+        ["xpath=(//img[@alt='Maya Womens Organic Hoodie - Grey'])[3]", "xpath:img"],
+        ["xpath=//div[@id='product-photos']/div/div/div/div/div[3]/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div[3]/div/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9f5bf77-c9df-4f08-90bf-885b63d76e3c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.h6:nth-child(1)",
+      "targets": [
+        ["css=.h6:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='product-details']/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Marina Womens Organic T-Shirt')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9710bf11-8774-43f7-815f-0042fde04bc3",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.price",
+      "targets": [
+        ["css=.price", "css:finder"],
+        ["xpath=//div[@id='product-price']/p/span", "xpath:idRelative"],
+        ["xpath=//p/span", "xpath:position"],
+        ["xpath=//span[contains(.,'£25.00')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f90a3b0-d014-4a45-9461-883c3e6737a1",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#product-variants img",
+      "targets": [
+        ["css=#product-variants img", "css:finder"],
+        ["xpath=//img[@alt='Grey']", "xpath:img"],
+        ["xpath=//div[@id='product-variants']/div/ul/li/div/a/span/img", "xpath:idRelative"],
+        ["xpath=//span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4df320bb-1bf4-433d-b43c-d111efdeb15b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.select-option li:nth-child(1)",
+      "targets": [
+        ["css=.select-option li:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='product-variants']/div[2]/ul/li", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'6')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2baa4b75-a1f6-4385-a0a0-e92ea915be13",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.content > p",
+      "targets": [
+        ["css=.content > p", "css:finder"],
+        ["xpath=//div[@id='product-details']/div/div[6]/div/div/p", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'A wardrobe staple, our Marina Womens Organic T-Shirt is made from soft cotton and decorated with a unique mountain crest. Naturally lightweight and breathable, its slim shape offers a comfortable fit – a perfect layer for every season.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76c68df7-cfd7-4ae4-a248-0bece2721ede",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a867d771-d982-4055-a41f-275dc62b010a",
+    "name": "VerifyTheFilterWithTwoSizes",
+    "commands": [{
+      "id": "61987cea-c63a-4f8d-9a4f-8ea86342f43d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "487da2f0-6e82-4557-9b31-55fc2069c038",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24469577-fbf2-4afd-8cd1-4617b9982b0d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.womens > .level0 > span",
+      "targets": [
+        ["css=.womens > .level0 > span", "css:finder"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e0818d5-f07b-4ce3-8d05-50601154baa7",
+      "comment": "",
+      "command": "click",
+      "target": "id=filterToggle",
+      "targets": [
+        ["id=filterToggle", "id"],
+        ["css=#filterToggle", "css:finder"],
+        ["xpath=//button[@id='filterToggle']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cfc7456-958b-4611-b0e1-ae17c6e1d6ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.size > .filter-button:nth-child(3)",
+      "targets": [
+        ["css=.size > .filter-button:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='filterContainer']/div/div[2]/ul/li[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/ul/li[3]", "xpath:position"],
+        ["xpath=//li[contains(.,'6')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ca8b518-81f0-47d2-a371-4ed65d6f3f3d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.size > .filter-button:nth-child(5)",
+      "targets": [
+        ["css=.size > .filter-button:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='filterContainer']/div/div[2]/ul/li[5]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/ul/li[5]", "xpath:position"],
+        ["xpath=//li[contains(.,'8')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c97cc54d-5064-4912-8fbe-87d92459c084",
+      "comment": "",
+      "command": "click",
+      "target": "css=.closeToggle:nth-child(2) path:nth-child(2)",
+      "targets": [
+        ["css=.closeToggle:nth-child(2) path:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4305183c-7bee-4eda-a96c-a7cbe129988a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-item:nth-child(1) .second > img",
+      "targets": [
+        ["css=.product-item:nth-child(1) .second > img", "css:finder"],
+        ["xpath=(//img[@alt='Lillie Womens Recycled Rash Vest - Black'])[2]", "xpath:img"],
+        ["xpath=//div[@id='product-grid']/div/div/a/picture[2]/img", "xpath:idRelative"],
+        ["xpath=//picture[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ab8153f-3e48-4467-8ade-201d21211f48",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.select-option li:nth-child(1)",
+      "targets": [],
+      "value": "6"
+    }, {
+      "id": "2afae28b-2316-460b-8446-bdc39963e171",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.select-option li:nth-child(2)",
+      "targets": [],
+      "value": "8"
+    }, {
+      "id": "f39260f9-de20-4d4e-98c4-36c0a238d0ad",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "586cf0fc-46e3-4641-83a8-a8bc0268fd0c",
+    "name": "VerifyTheFilterWithOneColor",
+    "commands": [{
+      "id": "9af870c3-4fde-4623-b053-26423e3135b8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bdc4f6a3-3a86-4b50-9423-e6ba87fdd6af",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85f1577d-b17a-424f-bd89-9163259dac34",
+      "comment": "",
+      "command": "click",
+      "target": "css=.womens > .level0 > span",
+      "targets": [
+        ["css=.womens > .level0 > span", "css:finder"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48d9cf53-29b6-48fc-849e-cb4f02742506",
+      "comment": "",
+      "command": "click",
+      "target": "css=#filterToggle svg",
+      "targets": [
+        ["css=#filterToggle svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "55ddf62e-44ba-4a99-8ee7-788330a07629",
+      "comment": "",
+      "command": "click",
+      "target": "css=.colour > .filter-button:nth-child(10)",
+      "targets": [
+        ["css=.colour > .filter-button:nth-child(12)", "css:finder"],
+        ["xpath=//div[@id='filterContainer']/div/div/ul/li[12]", "xpath:idRelative"],
+        ["xpath=//li[12]", "xpath:position"],
+        ["xpath=//li[contains(.,'Grey')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5dd2d985-2724-44a2-8512-3076d57e8a54",
+      "comment": "",
+      "command": "click",
+      "target": "css=.closeToggle:nth-child(2)",
+      "targets": [
+        ["css=.closeToggle:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='filterDropDown']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75bf15d4-6278-40b3-9ef1-4f58b2342926",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-item:nth-child(1) .second > img",
+      "targets": [
+        ["css=.product-item:nth-child(1) .second > img", "css:finder"],
+        ["xpath=(//img[@alt='Marina Womens Organic T-Shirt - Grey'])[2]", "xpath:img"],
+        ["xpath=//div[@id='product-grid']/div/div/a/picture[2]/img", "xpath:idRelative"],
+        ["xpath=//picture[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cad3579f-b0d6-409d-839b-c853488df584",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#product-variants .colour-name",
+      "targets": [
+        ["css=#product-variants .colour-name", "css:finder"],
+        ["xpath=//div[@id='product-variants']/div/ul/li/span", "xpath:idRelative"],
+        ["xpath=//div/ul/li/span", "xpath:position"]
+      ],
+      "value": "Grey"
+    }, {
+      "id": "000a11ff-3091-41c5-9d1a-5ef4df3c6144",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8889a1d4-eb52-4d33-91f7-79c27d3f5f69",
+    "name": "CheckTheContentOfMyAccountPage",
+    "commands": [{
+      "id": "768095d9-7fb2-42ce-b843-3556449fb7af",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8b5574c-dbc3-4b3d-a6af-e1b5196f617f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1600x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c31f77ef-01aa-48d6-9ebd-8befd7f6e4e6",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "//a[@href='/account/login']",
+      "targets": [],
+      "value": "login"
+    }, {
+      "id": "285e5b17-091e-4261-bbec-4fb9b6aa7c04",
+      "comment": "",
+      "command": "if",
+      "target": "${login}==1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0cb545c9-aba2-45fa-bb05-0cbfb59f423a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#userToggle svg",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1391fb6-5701-442b-a88c-ca5d17df5955",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > .button",
+      "targets": [
+        ["css=li:nth-child(1) > .button", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='userContainer']/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/login')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14cf625b-0da3-40bd-b2fe-2c3f497af532",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "id=CustomerEmail",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30cd01b3-8fff-48c7-bda9-6a39ae62e0bb",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerEmail",
+      "targets": [
+        ["id=CustomerEmail", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#CustomerEmail", "css:finder"],
+        ["xpath=//input[@id='CustomerEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": "xlfjizbwbuqxcroibb@nthrw.com"
+    }, {
+      "id": "811ac945-ad83-4ce6-a372-105eed388f93",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "id=CustomerPassword",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a14c59eb-3302-4cc9-ac4a-94e8c5ece4de",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerPassword",
+      "targets": [
+        ["id=CustomerPassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CustomerPassword", "css:finder"],
+        ["xpath=//input[@id='CustomerPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": "11111"
+    }, {
+      "id": "1745b162-a769-4005-8a36-6fc6094f5697",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-list:nth-child(1) .button",
+      "targets": [
+        ["css=.form-list:nth-child(1) .button", "css:finder"],
+        ["xpath=//input[@value='Sign In']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a98d3962-1a24-4bf4-b99b-12521bfd67dc",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4b1e409-9361-4c58-93cd-12adcd16c055",
+      "comment": "",
+      "command": "click",
+      "target": "css=circle:nth-child(2)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e6794bab-b5d5-4248-9d6d-32c3c7c43b61",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Account",
+      "targets": [
+        ["linkText=My Account", "linkText"],
+        ["css=.row > ul > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'My Account')]", "xpath:link"],
+        ["xpath=//div[@id='userContainer']/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/account')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47683731-1aad-46a8-a0de-b7b37c2f86c2",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=My Orders",
+      "targets": [
+        ["linkText=My Orders", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'My Orders')]", "xpath:link"],
+        ["xpath=//main[@id='main']/div/div/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.animal.co.uk/account')])[2]", "xpath:href"],
+        ["xpath=//main/div/div/div/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Orders')]", "xpath:innerText"]
+      ],
+      "value": "My Orders"
+    }, {
+      "id": "6f0a129e-af54-4c07-9a6f-ce2d87d8db8b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Address Book",
+      "targets": [
+        ["linkText=Address Book", "linkText"],
+        ["css=ul:nth-child(3) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Address Book')])[2]", "xpath:link"],
+        ["xpath=//main[@id='main']/div/div/div/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.animal.co.uk/account/addresses')]", "xpath:href"],
+        ["xpath=//main/div/div/div/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": "Address Book"
+    }, {
+      "id": "7c8a0b68-b0a5-44c2-99ac-6244046c6871",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Need Help?",
+      "targets": [
+        ["linkText=Need Help?", "linkText"],
+        ["css=ul:nth-child(3) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Need Help?')]", "xpath:link"],
+        ["xpath=//main[@id='main']/div/div/div/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.animal.co.uk/pages/support')]", "xpath:href"],
+        ["xpath=//main/div/div/div/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Need Help?')]", "xpath:innerText"]
+      ],
+      "value": "Need Help?"
+    }, {
+      "id": "e69b1f7c-3d36-4f79-a494-88469900d281",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Log Out",
+      "targets": [
+        ["linkText=Log Out", "linkText"],
+        ["css=ul:nth-child(3) #customer_logout_link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Log Out')])[2]", "xpath:link"],
+        ["xpath=(//a[@id='customer_logout_link'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div/div/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/account/logout')])[2]", "xpath:href"],
+        ["xpath=//main/div/div/div/div/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": "Log Out"
+    }, {
+      "id": "655ff7fd-3158-4829-b73d-9d8056e149a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=circle:nth-child(2)",
+      "targets": [
+        ["css=circle:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d8c4dfa-087f-49ac-aec0-9b350200a548",
+      "comment": "",
+      "command": "click",
+      "target": "id=customer_logout_link",
+      "targets": [
+        ["id=customer_logout_link", "id"],
+        ["linkText=Log Out", "linkText"],
+        ["css=ul:nth-child(1) #customer_logout_link", "css:finder"],
+        ["xpath=//a[contains(text(),'Log Out')]", "xpath:link"],
+        ["xpath=//a[@id='customer_logout_link']", "xpath:attributes"],
+        ["xpath=//div[@id='userContainer']/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/logout')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log Out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a355c041-99fa-4b1e-81e5-399766992e4c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e8143e10-6968-4517-b54c-a823507be644",
+    "name": "SearchForNonExistingProduct",
+    "commands": [{
+      "id": "b001434e-7b1c-424d-ad5b-a48a129e3bf4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d943f514-bb43-4c2a-8aba-e4fb13b535ac",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51cc6f20-7a6b-413e-aaac-2551cc511b3c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#searchToggle svg",
+      "targets": [
+        ["css=#searchToggle svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "af8ac54d-16b2-4dc1-b189-290e76f6d1ca",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-input",
+      "targets": [
+        ["id=search-input", "id"],
+        ["name=q", "name"],
+        ["css=#search-input", "css:finder"],
+        ["xpath=//input[@id='search-input']", "xpath:attributes"],
+        ["xpath=//div[@id='searchContainer']/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "abc"
+    }, {
+      "id": "91b7b3c6-e8d8-4cd8-adb0-28e386fc9e72",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-icon circle",
+      "targets": [
+        ["css=.button-icon circle", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "162856c2-bf07-4f45-a7aa-bc5392a30a52",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.no-products",
+      "targets": [
+        ["css=.no-products", "css:finder"],
+        ["xpath=//div[@id='product-grid']/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Your search for \"abc*\" did not yield any results.')]", "xpath:innerText"]
+      ],
+      "value": "Your search for \"abc*\" did not yield any results."
+    }, {
+      "id": "8591b40f-75fc-434f-b0ba-ab60a271f7d8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3c2f26f9-cb1b-4538-8fe6-c07af6709841",
+    "name": "CheckTheContentOfTheFilter",
+    "commands": [{
+      "id": "35b3bc6d-ce80-44db-9755-09e59684d3ab",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1da898d0-7894-4260-a55a-1d336e645d27",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0abd9d8c-acbf-4eb6-ad76-bcc43a61dbb6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.womens > .level0 > span",
+      "targets": [
+        ["css=.womens > .level0 > span", "css:finder"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0503a7e9-f54d-49d4-b045-ce2526f4ed49",
+      "comment": "",
+      "command": "click",
+      "target": "css=#filterToggle svg",
+      "targets": [
+        ["css=#filterToggle svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "182a258a-716a-44ce-b437-d7d9eda3d975",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.filter:nth-child(1) > .title",
+      "targets": [
+        ["css=.filter:nth-child(1) > .title", "css:finder"],
+        ["xpath=//div[@id='filterContainer']/div/div/h6", "xpath:idRelative"],
+        ["xpath=//h6", "xpath:position"],
+        ["xpath=//h6[contains(.,'Colour')]", "xpath:innerText"]
+      ],
+      "value": "Colour"
+    }, {
+      "id": "27f50718-10c7-4274-bfe0-430e97b2c825",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.filter:nth-child(2) > .title",
+      "targets": [
+        ["css=.filter:nth-child(2) > .title", "css:finder"],
+        ["xpath=//div[@id='filterContainer']/div/div[2]/h6", "xpath:idRelative"],
+        ["xpath=//div[2]/h6", "xpath:position"],
+        ["xpath=//h6[contains(.,'Size')]", "xpath:innerText"]
+      ],
+      "value": "Size"
+    }, {
+      "id": "f5f354af-9e9c-4d68-91e5-5816a41379b1",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.filter:nth-child(3) > .title",
+      "targets": [
+        ["css=.filter:nth-child(3) > .title", "css:finder"],
+        ["xpath=//div[@id='filterContainer']/div/div[3]/h6", "xpath:idRelative"],
+        ["xpath=//div[3]/h6", "xpath:position"],
+        ["xpath=//h6[contains(.,'Gender')]", "xpath:innerText"]
+      ],
+      "value": "Gender"
+    }, {
+      "id": "4dccd4dd-d8a5-47e9-a26e-43ac58deec6e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8fc92401-9d91-4d35-b627-8e9e86e7278f",
+    "name": "CkeckNavigationBarElements",
+    "commands": [{
+      "id": "8b27c446-6f6d-4621-be5d-6ba6c78c9d73",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "702ef9ec-bd0f-455f-ac30-851aab69fed7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e84e530c-2812-4e64-b9a0-414e62e68a8c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=a > img",
+      "targets": [
+        ["css=a > img", "css:finder"],
+        ["xpath=//img[@alt='Animal']", "xpath:img"],
+        ["xpath=//div[@id='shopify-section-header']/div/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58d02d8c-9442-493f-b007-7543d0ec5c53",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#searchToggle svg",
+      "targets": [
+        ["css=#searchToggle svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5da6c5f9-d4b8-4cd5-9aef-53d793f04802",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#userToggle svg",
+      "targets": [
+        ["css=#userToggle svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b22c87ba-50be-4c54-9537-5cefa4fd3d91",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#cartToggle svg",
+      "targets": [
+        ["css=#cartToggle svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebf6dfdf-503f-47ea-beea-5fc961a6567a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.womens > .level0 > span",
+      "targets": [
+        ["css=.womens > .level0 > span", "css:finder"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57b018ff-8958-457a-9781-db9306c8f74e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.mens > .level0 > span",
+      "targets": [
+        ["css=.mens > .level0 > span", "css:finder"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b85981f2-f640-4267-bdff-b659ce04dfab",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "64cbd04a-6b0a-4584-8eb6-03690ac273b0",
+    "name": "ValidRegistration",
+    "commands": [{
+      "id": "6d0a71c3-5af2-498a-b4d4-bfa1133165d7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "860a84ee-4d19-410d-99f8-aaee0865031c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "099f9d40-bea2-42b9-a5d2-7cb25b544aa5",
+      "comment": "",
+      "command": "click",
+      "target": "css=circle:nth-child(2)",
+      "targets": [
+        ["css=circle:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "44870893-a6a8-491c-9c74-0f5dddaf0117",
+      "comment": "",
+      "command": "click",
+      "target": "css=li > .button-second",
+      "targets": [
+        ["css=li > .button-second", "css:finder"],
+        ["xpath=//a[contains(text(),'Register')]", "xpath:link"],
+        ["xpath=//div[@id='userContainer']/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/register')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c148619e-8f1e-4ea7-9576-3696a06eb043",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "id=FullName",
+      "targets": [
+        ["id=FullName", "id"],
+        ["name=customer[full_name]", "name"],
+        ["css=#FullName", "css:finder"],
+        ["xpath=//input[@id='FullName']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da99b5b7-a2f7-4156-860b-f69c77ed5260",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return \"userName\" + Math.floor(Math.random()*10000000000)",
+      "targets": [],
+      "value": "userName"
+    }, {
+      "id": "d5343816-47e3-43f7-8170-9548fb4b05d4",
+      "comment": "",
+      "command": "echo",
+      "target": "${userName}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc0c37b1-7780-4fbf-aaba-dc790072440f",
+      "comment": "",
+      "command": "type",
+      "target": "id=FullName",
+      "targets": [],
+      "value": "${userName}"
+    }, {
+      "id": "882e7eaf-483a-4957-8cda-179510298962",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b87b66df-28c9-431b-9fcb-6a3cd6477500",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${userName} + \"@aba.com\"",
+      "targets": [],
+      "value": "email"
+    }, {
+      "id": "253c98ed-7012-429f-8998-0990d055c9dd",
+      "comment": "",
+      "command": "echo",
+      "target": "${email}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e78cd45e-1984-460c-826c-205f0c121504",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [],
+      "value": "${email}"
+    }, {
+      "id": "216b35ff-906a-4a2a-bc9a-16766e46f687",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "id=CreatePassword",
+      "targets": [
+        ["id=CreatePassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CreatePassword", "css:finder"],
+        ["xpath=//input[@id='CreatePassword']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17d02cf4-260d-4dd9-9e5b-53011c6c59af",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return \"password\" + Math.floor(Math.random()*10000000000)",
+      "targets": [],
+      "value": "password"
+    }, {
+      "id": "0bd7ac42-2233-478d-b414-6f3967993d96",
+      "comment": "",
+      "command": "echo",
+      "target": "${password}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae458e92-f947-469a-9133-ed64df8cfcf1",
+      "comment": "",
+      "command": "type",
+      "target": "id=CreatePassword",
+      "targets": [],
+      "value": "${password}"
+    }, {
+      "id": "8467fa29-7e69-4e90-b82f-1fe3e8909b88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.no-pd > .button",
+      "targets": [
+        ["css=.no-pd > .button", "css:finder"],
+        ["xpath=//input[@value='Create Account']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerRegisterForm']/ul/li[5]/input", "xpath:idRelative"],
+        ["xpath=//li[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7e59f95-4531-4553-91bd-686ffbeb8fb1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#userToggle svg",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c29c8aed-89e4-4fa9-b63c-159359cc841f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=customer_logout_link",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9147a601-bafa-4e0a-bb32-18fc7ac5427b",
+      "comment": "",
+      "command": "click",
+      "target": "id=customer_logout_link",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06f93fb7-9acc-47bc-85e6-04790a7b7071",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "075a3b57-17e1-4e97-a6a0-d8b35f7808c8",
+    "name": "LoginUser",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["219503d1-b968-4b6a-b076-f2b258128ce0"]
+  }, {
+    "id": "531c9312-ad88-4881-ba86-1a57edc06fa1",
+    "name": "RegisterUser",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["64cbd04a-6b0a-4584-8eb6-03690ac273b0"]
+  }, {
+    "id": "e6aa0e2f-fc0b-4e6e-9f9f-6255696c5cf3",
+    "name": "FilterOption",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dbadaba0-4b84-4169-be51-ad5fbabc0897", "3c2f26f9-cb1b-4538-8fe6-c07af6709841", "586cf0fc-46e3-4641-83a8-a8bc0268fd0c", "1358a76b-6623-4aea-a08a-62a2d0457c40", "a867d771-d982-4055-a41f-275dc62b010a"]
+  }, {
+    "id": "c5c44001-8cb1-4f99-ace0-90a2e3da8c39",
+    "name": "SortOption",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["443f1bd5-7c73-487f-a46c-b6f1d9d13f7e", "b3920975-cb0c-41c0-9276-de910d3cdf78"]
+  }, {
+    "id": "48c808cb-0286-41ee-8f00-c06a648fb92d",
+    "name": "MainNavigation",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8fc92401-9d91-4d35-b627-8e9e86e7278f", "f237f152-a3ef-44c2-a80d-b3507b6f1961", "66d0ee66-9fa7-43bf-a1a3-7960433156e5", "63f6b0d2-98bf-41ba-9ff9-a5df68c96f63"]
+  }, {
+    "id": "92663df6-908f-4d8d-bdd7-1b73c6bd9a54",
+    "name": "SearchOption",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e8143e10-6968-4517-b54c-a823507be644", "77c90fd6-d9f7-4a17-9c75-e0f67ff1bf4c"]
+  }, {
+    "id": "0a37f558-be79-4387-8d64-d83d874f474c",
+    "name": "MyAccount",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8889a1d4-eb52-4d33-91f7-79c27d3f5f69"]
+  }, {
+    "id": "857b07f9-a412-42b9-af14-82854438a6e5",
+    "name": "ProductPage",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["372cc381-a0e2-4f88-82f4-c61d92acfbf6"]
+  }],
+  "urls": ["https://www.animal.co.uk/"],
+  "plugins": []
+}
